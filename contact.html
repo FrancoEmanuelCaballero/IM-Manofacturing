@@ -43,17 +43,14 @@
                                 <li class="nav-item active">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">about</a>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#about-us">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="services.html">Services</a>
-                                </li>
+                                    <a class="nav-link" href="#services">Services</a>
+                                </li> -->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="single-blog.html">Chemical Products/Trade</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact us</a>
+                                    <a class="nav-link" href="#contact-form">Contact us</a>
                                 </li>
                             </ul>
                         </div>
@@ -65,7 +62,7 @@
     <!--::menu part end::-->
 
     <!--::breadcrumb part start::-->
-    <section class="breadcrumb blog_bg">
+    <!--   <section class="breadcrumb blog_bg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -77,17 +74,48 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--::breadcrumb part start::-->
 
-    <!-- ================ contact section start ================= -->
-    <section class="contact-section area-padding">
+    <section id="about-us" class="about_part section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="contact-title">Get in Touch</h2>
+                <div class="section_tittle">
+                    <h2 class="strategy_title">Strategy</h2>
                 </div>
-                <div class="col-lg-8">
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-6">
+
+                    <div class="about_img_strategy">
+                        <img src="img/foto.jpg" alt="">
+                    </div>
+                </div>
+                <div class=" col-lg-12 col-sm-8 col-md-6">
+                    <div class="about_text">
+                        <p>
+                            IM-Manufacturing LLC has crafted manufacturing strategies that combine overall business strategy and functional strategies. In practice, having a manufacturing strategy, which shapes the structure, infrastructure and capabilities of a firm’s manufacturing
+                            function, does not ensure the success of a business. The strategic approach must be combined with a practical approach to continuous improvement at an operational level if a company is to produce products at the rate, quality
+                            and cost that ensure competitiveness in their chosen markets.
+                            <br> <br> A key component of a manufacturing strategy is the definition of whether products are to be manufactured at the traditional manufacturing sites, or if the cost benefits offered make it beneficial to set up manufacturing
+                            in geographic areas with a low cost base (e.g. Eastern Europe, South America, China). Although it may often look appealing to set-up in low cost base areas, full account needs to be taken of the practical and logistical difficulties
+                            and the full financial implications of setting up and operating facilities in remote, underdeveloped countries. With the arrival of e-commerce and the virtual ease with which suppliers across the world can be identified and
+                            contracted to manufacture parts or complete products, many companies have benefited from the use of outsourcing of manufacturing in their strategic plans.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================ contact section start ================= -->
+    <section id="contact-form" class="contact-section area-padding">
+        <div class="container">
+            <div class="row">
+                <div class=" col-12 ">
+                    <h2 class="contact-title">Contact</h2>
+                </div>
+                <div class="col-lg-12">
                     <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                         <div class="row">
                             <div class="col-12">
@@ -116,29 +144,6 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-lg-4">
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-home"></i></span>
-                        <div class="media-body">
-                            <h3><a href="">Buttonwood, California.</a></h3>
-                            <p>Rosemead, CA 91770</p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                        <div class="media-body">
-                            <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-                            <p>Mon to Fri 9am to 6pm</p>
-                        </div>
-                    </div>
-                    <div class="media contact-info">
-                        <span class="contact-info__icon"><i class="ti-email"></i></span>
-                        <div class="media-body">
-                            <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
-                            <p>Send us your query anytime!</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -146,6 +151,7 @@
 
     <!--::footer_part start::-->
     <footer class="footer_part">
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -153,55 +159,32 @@
                         <a href="index.html" class="footer_logo_iner"> <img src="img/footer_logo.png" alt="#"> </a>
                     </div>
                 </div>
+                <div class="col-sm-4 col-lg-4">
+                    <div class="single_footer_part">
+                        <h4>Administrative Headquarters Office</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> 112 Capitol Trail Newark - DE 19711</p>
+                        <p><i class="fas fa-phone-alt"></i> (302) 355 - 1797</p>
+                        <p><i class="fas fa-fax"></i> (302) 397 - 2155</p>
+                        <p><i class="far fa-envelope"></i> info@IM-Manufacturing.com </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-4">
+                    <div class="single_footer_part">
+                        <h4>Chemical Products Trading Department</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> 1200 G Street. NW - Suite 800<br> Washington D.C. 20005</p>
+                        <p><i class="fas fa-phone-alt"></i> (202) 448-2890</p>
+                        <p><i class="fas fa-fax"></i> (202) 315-3064</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-4">
+                    <div class="single_footer_part">
+                        <h4>Sales Representative Office</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> 99 Madison Ave, Suite 5026, FL 5 New York,<br> NY 10016</p>
+                        <p><i class="fas fa-phone-alt"></i> (646) 536-5050</p>
+                        <p><i class="fas fa-fax"></i> (347) 438-3092</p>
+                    </div>
+                </div>
 
-                <div class="col-sm-6 col-lg-3">
-                    <div class="single_footer_part">
-                        <h4>About Us</h4>
-                        <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
-                        <div class="footer_icon social_icon">
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
-                                <li><a href="#" class="single_social_icon"><i class="fab fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="single_footer_part">
-                        <h4>Contact Info</h4>
-                        <p>Address : Your address goes here, your demo address.</p>
-                        <p>Phone : +8880 44338899</p>
-                        <p>Email : info@colorlib.com</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="single_footer_part">
-                        <h4>Important Link</h4>
-                        <ul class="list-unstyled">
-                            <li><a href=""> WHMCS-bridge</a></li>
-                            <li><a href="">Search Domain</a></li>
-                            <li><a href="">My Account</a></li>
-                            <li><a href="">Shopping Cart</a></li>
-                            <li><a href="">Our Shop</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="single_footer_part">
-                        <h4>Newsletter</h4>
-                        <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days open
-                        </p>
-                        <div id="mc_embed_signup">
-                            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" required>
-                                <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address" class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '" required="" type="email">
-                                <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm"><i class="far fa-paper-plane"></i></button>
-                                <div class="mt-10 info"></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
             </div>
             <hr>
             <div class="row">
@@ -212,7 +195,7 @@
                             Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            </script> All rights reserved |RevalCode
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </P>
                     </div>
@@ -250,6 +233,8 @@
     <script src="js/waypoints.min.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
+    <!--  Fontawesom -->
+    <script src="js/all.js"></script>
 </body>
 
 </html>
